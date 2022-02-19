@@ -1,0 +1,13 @@
+.card { box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); float: left; margin-left: 1%; width: 32% }
+
+.card .header { height: 40px; padding: 15px 20px; text-align: left; }
+.card .header .icon { display: inline-block; height: 100% }
+.card .header .presentation { display: inline-block; margin-left: 15px }
+.card .header .presentation p { margin: 2px; }
+.card .header .presentation .name { font-size: 1.2em; font-weight: 600; }
+.card .header .presentation .glass { color: #888; font-size: 1em; }
+
+.card .content { width: 100% }
+.card .content .photo { height: 100%; width: 100%; }
+.card .content .instructions { text-align: left; padding: 10px 20px; }
+

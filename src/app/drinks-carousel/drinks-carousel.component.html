@@ -1,0 +1,13 @@
+<mat-form-field class="form-field" appearance="outline">
+  <mat-label> What cocktail are you looking for? </mat-label>
+  <input matInput [formControl]="search" autocomplete="off" />
+</mat-form-field>
+
+<div *ngFor="let drink of drinksCarousel$ | async" class="carousel clearfix">
+  <cocktail-view
+    [img]="drink.strDrinkThumb"
+    [name]="drink.strDrink"
+    [glass]="drink.strGlass"
+    [instructions]="drink.strInstructions"
+  ></cocktail-view>
+</div>
